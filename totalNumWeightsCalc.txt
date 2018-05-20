@@ -1,0 +1,11 @@
+CNN = 2952 weights (not including biases)
+initial image size: 160x320x3
+after preprocess: 80x320x1
+affter (2,2) stride: 40x160
+affter (2,2) stride: 20x80
+affter (2,2) stride: 10x40
+total : 400
+Dense 400->100: 400K (nib)
+Dense 100->50: 5K (nib)
+Dense 50->10: 500 (nib)
+Dense 10->1: 11
